@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".safty">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/colo">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical"
+            android:padding="120dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ts"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/blue"
+                android:textSize="35dp"
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="Sneeze or cough?  Cover your nose and mouth with a tissue or use your elbow. "
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+
+                >
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical"
+            android:padding="120dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ms"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/blue"
+                android:textSize="35dp"
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="Wear a cloth face covering over your mouth and nose when around others."
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+
+                >
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical"
+            android:padding="120dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <ImageView
+                android:layout_width="144dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sh"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text=""
+
+                android:textColor="@color/blue"
+                android:textSize="35dp"
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="Keep at least 6 feet between yourself and others if you must be in public."
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+
+                >
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical"
+            android:padding="120dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            >
+
+            <ImageView
+                android:layout_width="153dp"
+                android:layout_height="69dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/hn"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/blue"
+                android:textSize="35dp"
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="Wash your hands often with soap and water for at least 20 seconds. "
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+
+                >
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
